@@ -24,7 +24,7 @@ span{
  padding: 2vw;
 width: 45%;
  border-radius: 5%;
- height: fit-content;
+ height:max-content;
  
 }
 .navbar{
@@ -103,6 +103,10 @@ transform:translateY(0%)
         margin-top: 2vw;
         margin-bottom: 10vw;
     }
+    h1,h3{
+      
+        font-size: 3vw;
+         }
     
   }
   html {
