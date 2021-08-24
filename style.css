@@ -5,7 +5,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     max-width: auto;
 }
  h1,h3{
@@ -41,6 +41,7 @@ width: 45%;
 #middle{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10vw;
   
 }
 .jumbotron{
@@ -53,5 +54,65 @@ width: 45%;
     border-top:0.2vw solid black;
     border-bottom:0.2vw solid black;
 }
-
+@media only screen and (max-width: 500px) {
+    #middle{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vw;
+    }
+    #accordion{
+        width: 90%;
+        margin: auto;
+    }
+    .competences{
+        width: 90%;
+        margin: auto; 
+        margin-top: 2vw;
+    }
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background-color:black;
+        color: honeydew;
+        text-align: center;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+       
+    }
+  
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+}
+ 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color:black;
+    color: honeydew;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+   
+}
+.contacts{
+display: block;
+  
+}
+a{
+    color: inherit;
+  
+}
+a:hover{
+text-decoration: none;
+}
  
