@@ -59,6 +59,7 @@ width: 45%;
         display: flex;
         flex-direction: column;
         margin-bottom: 10vw;
+      
     }
     #accordion{
         width: 90%;
@@ -68,6 +69,7 @@ width: 45%;
         width: 90%;
         margin: auto; 
         margin-top: 2vw;
+        margin-bottom: 10vw;
     }
     html {
         position: relative;
@@ -97,7 +99,7 @@ width: 45%;
     bottom: 0;
     width: 100%;
     height: auto;
-    background-color:black;
+    background-color:rgb(39, 35, 35);
     color: honeydew;
     text-align: center;
     padding-top: 1vw;
